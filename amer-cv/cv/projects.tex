@@ -1,0 +1,86 @@
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\vspace{1.5cm}
+\cvsection{Projects}
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cventries}
+
+%---------------------------------------------------------
+  \cventry
+    {Custom \textbf{Embedded Linux} Toolchain Development} % Project
+    {} % Empty location
+    {} % Empty date
+    {} % Empty description
+    {
+      \begin{cvitems} % Description
+        \item {Built cross-compilation toolchain for Raspberry Pi 4B+ using Crosstool-NG.}
+        \item {Configured and compiled custom Linux kernel (v5.15) with optimized modules for embedded deployment.}
+        \item {I hope to integrate BusyBox for minimal userspace and reduced boot time by 30\% compared to stock kernel.}
+      \end{cvitems}
+    }
+  \cventry
+    {\textbf{Linux} System Utilities Development} % Project
+    {} % Empty location
+    {} % Empty date
+    {} % Empty description
+    {
+      \begin{cvitems} % Description
+        \item {Developed custom \textbf{cp} and \textbf{mv} utilities using Linux system calls (open/read/write/close).}
+        \item {Implemented argument parsing and error handling at the kernel interface level.}
+        \item {Optimized file operations by minimizing userspace-kernel transitions.}
+      \end{cvitems}
+    }
+%---------------------------------------------------------
+  \cventry
+    {Secure Smart Home System} % Project
+    {} % Empty location
+    {} % Empty date
+    {} % Empty description
+    {
+      \begin{cvitems} % Description
+        %School project Amit Learning school
+        \item {Designed multi-MCU architecture with ATmega32 (admin/user roles) and I2C EEPROM for credential storage.}
+        \item {Implemented SPI communication between controllers and UART interface for serial monitoring.}
+        \item {Developed password hashing mechanism to secure admin/user data in EEPROM.}
+      \end{cvitems}
+    }
+    \vspace{2mm}
+%---------------------------------------------------------
+  \cventry
+    {\textbf{SLAM-Based Mobile Robot}(ROS 2 / \textbf{Embedded Linux} Development)} % Project
+    {} % Empty location
+    {} % Empty date
+    {} % Empty description
+    {
+      \begin{cvitems} % Description
+        \item {Implemented real-time 2D mapping using \textbf{RPLIDAR A1M8} and \textbf{SLAM Toolbox} on Raspberry Pi 4B+ (Ubuntu Server).}
+        \item {Configured \textbf{AMCL} for dynamic localization with 3cm position accuracy in custom environments.}
+        \item {Deployed \textbf{Nav2 stack} for autonomous navigation:}
+          \begin{itemize}
+            \vspace{1mm}
+            \item Path planning with obstacle avoidance
+            \item Multi-waypoint navigation system
+            \item Recovery behaviors for stuck scenarios
+          \end{itemize}
+        \item {Developed low-level \textbf{UART} serial bridge node to control robot (Arduino Mega 2560) with ROS 2 interface.}
+      \end{cvitems}
+    }
+%---------------------------------------------------------
+  \cventry
+    {2-Axis Solar Tracking System} % Project
+    {} % Empty location
+    {} % Empty date
+    {} % Empty description
+    {
+      \begin{cvitems} % Description
+        \item {Developed a dual-axis solar panel tracking system using ESP32, 4 LDRs, NEMA23 \& NEMA17 motors.}
+        \item {Used microstepping drivers for smooth tracking and accurate alignment.}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+
+\end{cventries}

@@ -1,0 +1,59 @@
+\documentclass[9pt, letterpaper]{russell}
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=0.1cm, footskip=.75cm}
+\fontdir[fonts/]
+\colorlet{russell}{russell-black}
+\setbool{acvSectionColorHighlight}{false}
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+% Define custom header name command
+
+% Personal Info
+\name{\LARGE Amer Farg}{\LARGE Hamed} % Firstname + Lastname format
+\position{Technical Director at IEEE BUC SB}
+\address{Nasr City, Cairo, Egypt}
+\mobile{+20 115 600 0020}
+\email{alshwrbjyamer@gmail.com}
+\github{github.com/alshwrbjyamer911}
+\linkedin{linkedin.com/in/amer-farg-ba353522b}
+\quote{``Dedicated to developing optimized embedded Linux solutions for constrained environments."}
+
+\begin{document}
+
+% Header with full name
+\makecvheader[C]
+%{\headername{Amer Farg Hamed}}
+
+
+
+% Footer with shortened name
+
+%{\thepage}
+
+
+% Include CV sections
+\begin{document}
+\makecvtitle
+
+% Add this new section
+\section*{Core Competencies}
+\begin{center}
+\begin{tabular}{l l l l}
+\textbullet~Embedded Linux (Kernel, Buildroot/Yocto) & \textbullet~ROS 2 & \textbullet~Low-Level C & \textbullet~ARM Cortex-M \\
+\end{tabular}
+\end{center}
+
+% Existing sections follow
+\input{cv/education.tex}
+\input{cv/experience.tex}
+...
+%\input{cv/competencies.tex}
+\input{cv/summary.tex}
+\input{cv/education.tex}
+\input{cv/skills.tex}
+\input{cv/experience.tex}
+\input{cv/projects.tex}
+\input{cv/certificates.tex}
+\input{cv/tools.tex}
+\input{cv/coursework.tex}
+
+\end{document}
