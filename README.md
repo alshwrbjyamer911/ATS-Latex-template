@@ -1,0 +1,2 @@
+# ATS-Latex-template
+.
